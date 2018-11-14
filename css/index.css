@@ -1,1 +1,46 @@
 /* Write your CSS here */
+#sidebar{
+    padding:30px;
+    width:500px;
+    height:100vh;
+    float:left;
+    background-color:blue;
+
+}
+
+#header{
+    height:60px;
+    width:100%;
+    background-color:green;
+}
+
+#main{
+    width:500px;
+    background-color:gray;
+    height:100vh;
+    float:left;
+    overflow:scroll;
+}
+
+.imgs{
+    height:200px;
+    width:200px;
+}
+#submit:hover {opacity: 1}
+#submit{
+    background-color: green;
+    color: white;
+    opacity: 0.8;
+    padding: 16px 32px;
+    border: none;
+    float: left;
+    border-radius:12px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: inline-block;
+
+}
+
+.text{
+    font-size:20px;
+}

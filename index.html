@@ -11,8 +11,17 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   </head>
   <body>
-    <div id="header" class="text-primary "> anything </div>
-    <div id="sidebar" class="col-4"> </div>
+    <div id="header" class="text-primary ">  </div>
+    <div id="sidebar" class="col-4">
+        <h2>Create your own blog</h2>
+        <p>Title</p>
+        <input id="title" placeholder="Title"><br>
+        <p>Image</p>
+        <input id="image" placeholder="image"><br>
+        <p>Text</p>
+        <input id="text" placeholder="Text"><br>
+        <button id="submit">Submit</button> 
+    </div>
     <div id="main" class="col-8"></div>
     
     
@@ -27,7 +36,7 @@
 <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
     <script>
 
-      // Initialize Firebase
+      // Intialize Firebase
       var config = {
         apiKey: "AIzaSyDJS7ff67ITiFd8WL_gAseD5E_JP-LuN0w",
         authDomain: "lissette-sean.firebaseapp.com",
