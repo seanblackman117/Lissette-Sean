@@ -1,4 +1,12 @@
-/* Write your CSS here */
+img{
+    height:200px;
+    width:200px;
+}
+#post{
+    margin:20px;
+}
+/* Write your CSS here
+
 #sidebar{
     padding:30px;
     width:500px;
@@ -43,4 +51,4 @@
 
 .text{
     font-size:20px;
-}
+} */
